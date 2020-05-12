@@ -22,7 +22,7 @@ public class DataFaker {
     }//GenerateName
 
     public int GeneratePoints(){
-        int income = rand.nextInt(10);
+        int income = rand.nextInt(30);
         return income;
     }//GeneratePoints
 }

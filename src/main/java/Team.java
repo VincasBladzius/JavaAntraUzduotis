@@ -3,26 +3,46 @@ import players.*;
 import java.util.*;
 
 public class Team <T extends Player>{
-    private ArrayList <T> members = new ArrayList();
+    private ArrayList <T> roster = new ArrayList();
+    private int matchScore;
 
     public Team() {
 
     }
 
-    public void setMembers(T player) {
-        members.add(player);
+    public ArrayList getRoster() {
+        return roster;
     }
 
-    public ArrayList <T> getMembers() {
-        return members;
+    public int getMatchScore() {
+        return matchScore;
     }
 
-//    public ArrayList CreateRoster(){
-//        Player<T> player = new Player();
-//        members.add(player);
-//
-//        return members;
-//       }
+    public void setMatchScore(int matchScore) {
+        this.matchScore = matchScore;
     }
+
+    public void draftTeam(T player) {
+       roster.add(player);
+    }
+
+    public <E extends Player> void display(E player){
+            System.out.println(player.getFirstName() + " " + player.getLastName() + " " + player.getNationality());
+        }
+
+    public <T extends Team> int playMatch(ArrayList<Player> roster){
+        int score = 0;
+        for(Player player : roster){
+            this.display(player);
+            player.setMatchPoints();
+            score += player.getMatchPoints();
+            System.out.println(score);
+        }
+        return score;
+    }
+
+    }
+
+
 
 

@@ -5,8 +5,9 @@ import java.util.Random;
 public class Player <T>{
     private String firstName;
     private String lastName;
-    protected String position;
+    public String nationality;
     private int totalPoints;
+    private int matchPoints;
     Random rand;
     DataFaker faker = new DataFaker();
 
@@ -16,13 +17,15 @@ public class Player <T>{
         this.lastName = faker.GenerateName()[1];
     }//ctor
 
-    public String getPosition() {
-        return position;
+    public String getNationality() {
+        return nationality;
     }
 
-    public void setTotalPoints() {
-        this.totalPoints += faker.GeneratePoints();
+    public void setNationality(String position) {
+        this.nationality = position;
     }
+
+
 
     public String getFirstName() {
         return firstName;
@@ -34,5 +37,16 @@ public class Player <T>{
 
     public int getTotalPoints() {
         return totalPoints;
+    }
+
+    public void setTotalPoints() {
+        this.totalPoints += matchPoints;
+    }
+
+    public int getMatchPoints() {
+        return matchPoints;
+    }
+    public void setMatchPoints() {
+        this.matchPoints = faker.GeneratePoints();;
     }
 }
