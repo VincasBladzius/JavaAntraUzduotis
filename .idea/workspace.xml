@@ -11,21 +11,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/France.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/France.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/Greece.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/Greece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/Lithuania.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/Lithuania.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/Slovenia.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/Slovenia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/players/Spain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/players/Spain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Team.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TournamentTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/TournamentTeams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/France.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/France.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Greece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Greece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Lithuania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Lithuania.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Slovenia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Slovenia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Spain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Spain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/BaseballPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/FootballPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/League.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/SoccerPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pavyzdys/Team.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +50,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1baaNwu3NInBZl965nHPTBJtTxO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -113,7 +111,7 @@
       <workItem from="1589394618583" duration="9856000" />
       <workItem from="1589431280795" duration="367000" />
       <workItem from="1589468059030" duration="12805000" />
-      <workItem from="1589576340715" duration="10625000" />
+      <workItem from="1589576340715" duration="20369000" />
     </task>
     <servers />
   </component>
@@ -125,50 +123,62 @@
       <screen x="2560" y="364" width="1920" height="1040" />
     </state>
     <state x="3112" y="543" key="#Project_Structure/2560.364.1920.1040/0.0.2560.1400@2560.364.1920.1040" timestamp="1588872653784" />
-    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1589637277091">
+    <state x="1010" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1589647977894">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589637277091" />
+    <state x="1010" y="455" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589647977894" />
+    <state x="1029" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589656812469">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1029" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589656812469" />
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1589649084413">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589649084413" />
     <state x="1076" y="560" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589116960945">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1076" y="560" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589116960945" />
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589662656539">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589662656539" />
     <state x="1027" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589468393794">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1027" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589468393794" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1589644899961">
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1589660420643">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589644899961" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1589644899961">
+    <state width="2517" height="492" key="GridCell.Tab.0.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420643" />
+    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1589660420643">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589644899961" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1589644899960">
+    <state width="2517" height="492" key="GridCell.Tab.0.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420643" />
+    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1589660420643">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589644899960" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1589644899961">
+    <state width="2517" height="492" key="GridCell.Tab.0.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420643" />
+    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1589660420643">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589644899961" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1589638702898">
+    <state width="2517" height="492" key="GridCell.Tab.0.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420643" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1589660420502">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589638702898" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1589638702898">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420502" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1589660420501">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589638702898" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1589638702898">
+    <state width="2517" height="492" key="GridCell.Tab.1.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420501" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1589660420501">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589638702898" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1589638702898">
+    <state width="2517" height="492" key="GridCell.Tab.1.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420501" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1589660420502">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589638702898" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589660420502" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589312488347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

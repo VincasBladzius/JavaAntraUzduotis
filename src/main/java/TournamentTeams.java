@@ -1,6 +1,7 @@
 import players.*;
 
 import java.util.ArrayList;
+import java.util.Set;
 
 public class TournamentTeams{
     private ArrayList<France> frenchSquad  = new ArrayList<>();
@@ -8,6 +9,8 @@ public class TournamentTeams{
     private ArrayList<Lithuania> lithuanianSquad  = new ArrayList<>();
     private ArrayList<Slovenia> slovenianSquad  = new ArrayList<>();
     private ArrayList<Spain> spanishSquad  = new ArrayList<>();
+    Set<ArrayList<? extends Player>> matches;
+
    public TournamentTeams() {
         setFrenchSquad();
         setGreekSquad();
@@ -74,5 +77,16 @@ public class TournamentTeams{
             spanishSquad.add(new Spain());
             i++;
         }
+    }
+    public Set<ArrayList<? extends Player>> getMatches() {
+        return matches;
+    }
+
+    public void setMatches() {
+        this.matches.add(frenchSquad);
+        this.matches.add(greekSquad);
+        this.matches.add(lithuanianSquad);
+        this.matches.add(slovenianSquad);
+        this.matches.add(spanishSquad);
     }
 }

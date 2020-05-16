@@ -2,12 +2,12 @@ import players.*;
 
 import java.util.*;
 
-public class Team <T>{
+public class Match<T>{
 
     private int matchScore;
     ArrayList<? extends Player> roster;
 
-    public Team(ArrayList<? extends Player> roster) {
+    public Match(ArrayList<? extends Player> roster) {
             this.roster = roster;
         }
 
