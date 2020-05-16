@@ -1,52 +1,54 @@
 package players;
 
+import java.util.ArrayList;
 import java.util.Random;
 
-public class Player <T>{
+public class Player<T>{
     private String firstName;
     private String lastName;
-    public String nationality;
+    protected String nationality;
     private int totalPoints;
     private int matchPoints;
     Random rand;
     DataFaker faker = new DataFaker();
 
     public Player() {
-
-        this.firstName = faker.GenerateName()[0];
-        this.lastName = faker.GenerateName()[1];
+      setFirstName();
+       setLastName();
     }//ctor
-
-    public String getNationality() {
-        return nationality;
-    }
-
-    public void setNationality(String position) {
-        this.nationality = position;
-    }
-
-
 
     public String getFirstName() {
         return firstName;
+    }
+
+    public void setFirstName() {
+        this.firstName = faker.GenerateName()[0];;
     }
 
     public String getLastName() {
         return lastName;
     }
 
+    public void setLastName() {
+        this.lastName = faker.GenerateName()[1];;
+    }
+
     public int getTotalPoints() {
         return totalPoints;
     }
 
-    public void setTotalPoints() {
+    public void setTotalPoints(int matchPoints) {
         this.totalPoints += matchPoints;
     }
 
     public int getMatchPoints() {
         return matchPoints;
     }
+
     public void setMatchPoints() {
         this.matchPoints = faker.GeneratePoints();;
+    }
+    public String getNationality() {
+        return nationality;
     }
 }

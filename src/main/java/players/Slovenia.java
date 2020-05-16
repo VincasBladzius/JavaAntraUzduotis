@@ -1,14 +1,9 @@
 package players;
 
-public class Slovenia<T> extends Player {
-
-    private final String nationality;
+public class Slovenia extends Player{
 
     public Slovenia() {
-        this.nationality = "Slovenia";
+        super.nationality = "Slovenia";
     }
 
-    public String getNationality() {
-        return nationality;
-    }
 }

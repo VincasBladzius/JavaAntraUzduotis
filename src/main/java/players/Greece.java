@@ -1,14 +1,12 @@
 package players;
 
-public class Greece<T> extends Player {
+import java.util.ArrayList;
 
-    private String nationality;
+public class Greece extends Player{
 
     public Greece() {
-        this.nationality = "Greece";
+        super.nationality = "Greece";
     }
 
-    public String getNationality() {
-        return nationality;
-    }
+
 }
