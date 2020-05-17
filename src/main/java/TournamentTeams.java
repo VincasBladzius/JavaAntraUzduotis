@@ -9,14 +9,11 @@ public class TournamentTeams{
     private ArrayList<Lithuania> lithuanianSquad  = new ArrayList<>();
     private ArrayList<Slovenia> slovenianSquad  = new ArrayList<>();
     private ArrayList<Spain> spanishSquad  = new ArrayList<>();
-    Set<ArrayList<? extends Player>> matches;
+    private ArrayList<Team> matches = new ArrayList<>();
 
    public TournamentTeams() {
-        setFrenchSquad();
-        setGreekSquad();
-        setLithuanianSquad();
-        setSlovenianSquad();
-        setSpanishSquad();
+       createAllSquads();
+       setMatches();
     }
 
     public ArrayList<France> getFrenchSquad() {
@@ -78,15 +75,31 @@ public class TournamentTeams{
             i++;
         }
     }
-    public Set<ArrayList<? extends Player>> getMatches() {
+
+    public ArrayList<Team> getMatches() {
         return matches;
     }
 
     public void setMatches() {
-        this.matches.add(frenchSquad);
-        this.matches.add(greekSquad);
-        this.matches.add(lithuanianSquad);
-        this.matches.add(slovenianSquad);
-        this.matches.add(spanishSquad);
+        Team<France> france = new Team<>(getFrenchSquad());
+        Team<Greece> greece = new Team<>(getGreekSquad());
+        Team<Lithuania> lithuania = new Team<>(getLithuanianSquad());
+        Team<Slovenia> slovenia = new Team<>(getSlovenianSquad());
+        Team<Spain> spain = new Team<>(getSpanishSquad());
+        this.matches.add(france);
+        this.matches.add(greece);
+        this.matches.add(lithuania);
+        this.matches.add(slovenia);
+        this.matches.add(spain);
     }
+
+
+    public void createAllSquads(){
+        setFrenchSquad();
+        setGreekSquad();
+        setLithuanianSquad();
+        setSlovenianSquad();
+        setSpanishSquad();
+    }
+
 }
