@@ -2,13 +2,16 @@ import players.Player;
 
 import java.util.ArrayList;
 
-public class Team<T>{
+
+public class Team<T extends Player>{
     private ArrayList<T> roster;
     private int won;
     private int lost;
+    private String teamNationality;
 
     public Team(ArrayList<T> roster) {
         this.roster = roster;
+        setTeamNationality();
     }
 
     public ArrayList<T> getRoster() {
@@ -20,7 +23,7 @@ public class Team<T>{
     }
 
     public void setWon(int won) {
-        this.won = won;
+        this.won += won;
     }
 
     public int getLost() {
@@ -28,6 +31,14 @@ public class Team<T>{
     }
 
     public void setLost(int lost) {
-        this.lost = lost;
+        this.lost += lost;
+    }
+
+    public String getTeamNationality() {
+        return teamNationality;
+    }
+
+    public void setTeamNationality() {
+        this.teamNationality = this.getRoster().get(0).getNationality();
     }
 }

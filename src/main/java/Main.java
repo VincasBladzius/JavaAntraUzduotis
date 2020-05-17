@@ -7,13 +7,6 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-
-        TournamentTeams teams = new TournamentTeams();
-      Match match = new Match();
-
-
-
-
+    Games games = new Games();
     }
-
 }
