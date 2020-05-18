@@ -93,7 +93,6 @@ public class TournamentTeams{
         this.matches.add(spain);
     }
 
-
     public void createAllSquads(){
         setFrenchSquad();
         setGreekSquad();

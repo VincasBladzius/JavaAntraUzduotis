@@ -19,6 +19,7 @@ public class Games {
                 }
             }
         }
+
         Collections.sort(teams.getMatches(), new SortTeamsByWins());
         Collections.reverse(teams.getMatches());
         for (int i = 0; i < teams.getMatches().size(); i++) {
