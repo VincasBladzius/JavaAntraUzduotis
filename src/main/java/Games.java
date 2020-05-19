@@ -1,11 +1,10 @@
 import players.*;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class Games {
+
+    private Map<String, String> podium = new HashMap<>();
 
     public Games() {
         performTournament();
@@ -24,6 +23,7 @@ public class Games {
         sortByAlphabet(teams.getMatches());
         sortByScoring(match.getAllPlayers());
         sortByWins(teams, new SortTeamsByWins());
+        createPodium(teams);
     }//performMatch
 
     private void sortByScoring(HashSet<Player> allPlayersSet){
@@ -49,6 +49,12 @@ public class Games {
         for (Team team : teams){
             System.out.println(team.getTeamNationality());
         }
+    }//sortByAlphabet
+
+    private void createPodium(TournamentTeams teams){
+        podium.put("Gold", teams.getMatches().get(0).getTeamNationality());
+        podium.put("Silver", teams.getMatches().get(1).getTeamNationality());
+        podium.put("Bronze", teams.getMatches().get(2).getTeamNationality());
     }
 
 }

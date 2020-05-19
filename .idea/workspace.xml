@@ -8,10 +8,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Games.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Games.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Match.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Match.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Team.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,6 +84,7 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+      <recent name="Comparators" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,7 +119,7 @@
       <workItem from="1589431280795" duration="367000" />
       <workItem from="1589468059030" duration="12805000" />
       <workItem from="1589576340715" duration="21856000" />
-      <workItem from="1589699856001" duration="46094000" />
+      <workItem from="1589699856001" duration="49917000" />
     </task>
     <servers />
   </component>
@@ -123,14 +139,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1029" y="503" key="#com.intellij.fileTypes.FileTypeChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589656812469" />
-    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1589907898034">
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1589909921903">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589907898034" />
-    <state x="1076" y="560" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589116960945">
+    <state x="1085" y="416" key="#com.intellij.ide.util.MemberChooser/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589909921903" />
+    <state x="1010" y="481" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1589909346316">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1076" y="560" width="407" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589116960945" />
+    <state x="1010" y="481" key="#com.intellij.ide.util.PackageChooserDialog/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589909346316" />
+    <state x="1076" y="560" width="413" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589909348605">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1076" y="560" width="413" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589909348605" />
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589893869188">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -139,42 +159,46 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1027" y="538" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589468393794" />
-    <state width="2517" height="453" key="GridCell.Tab.0.bottom" timestamp="1589908841732">
+    <state width="2517" height="453" key="GridCell.Tab.0.bottom" timestamp="1589916733947">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.0.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841732" />
-    <state width="2517" height="453" key="GridCell.Tab.0.center" timestamp="1589908841732">
+    <state width="2517" height="453" key="GridCell.Tab.0.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733947" />
+    <state width="2517" height="453" key="GridCell.Tab.0.center" timestamp="1589916733947">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.0.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841732" />
-    <state width="2517" height="453" key="GridCell.Tab.0.left" timestamp="1589908841732">
+    <state width="2517" height="453" key="GridCell.Tab.0.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733947" />
+    <state width="2517" height="453" key="GridCell.Tab.0.left" timestamp="1589916733947">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.0.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841732" />
-    <state width="2517" height="453" key="GridCell.Tab.0.right" timestamp="1589908841732">
+    <state width="2517" height="453" key="GridCell.Tab.0.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733947" />
+    <state width="2517" height="453" key="GridCell.Tab.0.right" timestamp="1589916733947">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.0.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841732" />
-    <state width="2517" height="453" key="GridCell.Tab.1.bottom" timestamp="1589908841577">
+    <state width="2517" height="453" key="GridCell.Tab.0.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733947" />
+    <state width="2517" height="453" key="GridCell.Tab.1.bottom" timestamp="1589916733948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.1.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841577" />
-    <state width="2517" height="453" key="GridCell.Tab.1.center" timestamp="1589908841577">
+    <state width="2517" height="453" key="GridCell.Tab.1.bottom/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733948" />
+    <state width="2517" height="453" key="GridCell.Tab.1.center" timestamp="1589916733948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.1.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841577" />
-    <state width="2517" height="453" key="GridCell.Tab.1.left" timestamp="1589908841576">
+    <state width="2517" height="453" key="GridCell.Tab.1.center/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733948" />
+    <state width="2517" height="453" key="GridCell.Tab.1.left" timestamp="1589916733948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.1.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841576" />
-    <state width="2517" height="453" key="GridCell.Tab.1.right" timestamp="1589908841577">
+    <state width="2517" height="453" key="GridCell.Tab.1.left/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733948" />
+    <state width="2517" height="453" key="GridCell.Tab.1.right" timestamp="1589916733948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="453" key="GridCell.Tab.1.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589908841577" />
+    <state width="2517" height="453" key="GridCell.Tab.1.right/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589916733948" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589312488347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589312488347" />
+    <state x="662" y="312" key="new project wizard" timestamp="1589917670551">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="662" y="312" key="new project wizard/2560.364.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1589917670551" />
     <state x="1022" y="329" key="refactoring.ChangeSignatureDialog" timestamp="1589831820531">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
