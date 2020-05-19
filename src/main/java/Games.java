@@ -21,10 +21,7 @@ public class Games {
                 }
             }
         }
-        Collections.sort(teams.getMatches());
-        for (Team team : teams.getMatches()){
-            System.out.println(team.getTeamNationality());
-        }
+        sortByAlphabet(teams.getMatches());
         sortByScoring(match.getAllPlayers());
         sortByWins(teams, new SortTeamsByWins());
     }//performMatch
@@ -46,5 +43,12 @@ public class Games {
             i++;
         }
     }//sortByWins
+
+    private void sortByAlphabet(ArrayList<Team> teams){
+        Collections.sort(teams);
+        for (Team team : teams){
+            System.out.println(team.getTeamNationality());
+        }
+    }
 
 }
