@@ -6,11 +6,20 @@ public class Match{
 
     private int HostScore;
     private int VisitorScore;
+    HashSet<Player> AllPlayers = new HashSet<>();
 
 
-    public <T extends Player> Match(Team homeTeam, Team visitorTeam) {
-            playMatch(homeTeam, visitorTeam);
+    public <T extends Player> Match() {
+
         }
+
+    public HashSet<Player> getAllPlayers() {
+        return AllPlayers;
+    }
+
+    public void setAllPlayers(Player player) {
+       AllPlayers.add(player);
+    }
 
     public int getHostScore() {
         return HostScore;
@@ -31,18 +40,19 @@ public class Match{
     public <T extends Player> int setMatchScore(ArrayList<T> roster) {
         int matchPoints;
         int matchScore = 0;
-        HashSet<Player> scorersSet = new HashSet<>();
+        ArrayList<Player> scorers = new ArrayList<>();
         for(Player<T> player : roster){
-            //display(player);
+ //           display(player);
             player.setMatchPoints();
             matchPoints = player.getMatchPoints();
-            //System.out.println("Scored this match : " + matchPoints);
+//            System.out.println("Scored this match : " + matchPoints);
             matchScore += matchPoints;
             player.setTotalPoints(matchPoints);
-            scorersSet.add(player);
+            scorers.add(player);
+            setAllPlayers(player);
 //            System.out.println("Scored so far :" + player.getTotalPoints());
         }
-        ArrayList<Player> scorers = new ArrayList<>(scorersSet);
+
 //        System.out.println("Matchscore: " + matchScore);
         Collections.sort(scorers, new SortScorers());
         Collections.reverse(scorers);

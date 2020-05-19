@@ -3,7 +3,7 @@ import players.Player;
 import java.util.ArrayList;
 
 
-public class Team<T extends Player>{
+public class Team<T extends Player>implements Comparable<Team>{
 
     private ArrayList<T> roster;
     private int won;
@@ -11,7 +11,7 @@ public class Team<T extends Player>{
     private int gamesPlayed;
     private String teamNationality;
 
-    public Team(ArrayList<T> roster) {
+    public  Team(ArrayList<T> roster) {
         this.roster = roster;
         setTeamNationality();
     }
@@ -51,4 +51,9 @@ public class Team<T extends Player>{
     }
 
 
+    @Override
+    public int compareTo(Team o) {
+        this.getTeamNationality().compareTo(o.getTeamNationality());
+        return 0;
+    }
 }

@@ -64,7 +64,7 @@ public class Player<T> implements Comparable<Player>{
 
     @Override
     public int compareTo(Player o) {
-        if(this.getAvgPoints() > o.getAvgPoints()){
+        if(this.getTotalPoints() < o.getTotalPoints()){
             return 1;
         }else{
             return -1;
